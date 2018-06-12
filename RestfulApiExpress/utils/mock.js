@@ -8,7 +8,7 @@ var rnum = 0;
 
 // 处理get请求
 router.get('/', function(req, res) {
-	res.send({'getting'});
+	res.send('getting');
 });
 
 // 处理POST请求
